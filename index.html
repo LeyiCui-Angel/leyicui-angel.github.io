@@ -61,18 +61,34 @@
             <section class="resume-section" id="projects">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Projects</h2>
+                    <script>
+                        function invisible(id){
+                            document.getElementById(id).style.display="none";
+                        }
+                        function display(id){
+                            document.getElementById(id).style.display="flex";
+                        }
+                        function displayAll(){
+                            display('cs1');
+                            display('cs2');
+                            display('dance1');
+                            display('dance2');
+                            display('music1');
+                            display('music2');
+                        }
+                    </script>
                     <ul class="nav nav-pills">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#all">All</a>
+                            <a class="nav-link active" href="#projects" onclick="displayAll()">All</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#cs">Computer Science</a>
+                            <a class="nav-link" href="#projects" onclick="displayAll();invisible('dance1');invisible('dance2');invisible('music1');invisible('music2');">Computer Science</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#dance">Dance</a>
+                            <a class="nav-link" href="#projects" onclick="displayAll();invisible('music1');invisible('music2');invisible('cs1');invisible('cs2');">Dance</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#music">Music</a>
+                            <a class="nav-link" href="#projects" onclick="displayAll();invisible('cs1');invisible('cs2');invisible('dance1');invisible('dance2');">Music</a>
                         </li>
                         <!--<li class="nav-item">
                             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -81,61 +97,61 @@
 
                     <div class="row">
                         <div class="col-sm-6">
-                            <div class="card">
+                            <div class="card", id="cs1">
                                 <img src="..." class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Special title treatment</h5>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <h5 class="card-title">Card 1</h5>
+                                    <p class="card-text">cs</p>
                                     <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="card">
+                            <div class="card", id="dance1">
                                 <img src="..." class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Special title treatment</h5>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <h5 class="card-title">Card 2</h5>
+                                    <p class="card-text">dance</p>
                                     <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="card">
+                            <div class="card", id="cs2">
                                 <img src="..." class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Special title treatment</h5>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <h5 class="card-title">Card 3</h5>
+                                    <p class="card-text">cs</p>
                                     <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="card">
+                            <div class="card", id="music1">
                                 <img src="..." class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Special title treatment</h5>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <h5 class="card-title">Card 4</h5>
+                                    <p class="card-text">music</p>
                                     <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="card">
+                            <div class="card", id="dance2">
                                 <img src="..." class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Special title treatment</h5>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <h5 class="card-title">Card 5</h5>
+                                    <p class="card-text">dance</p>
                                     <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="card">
+                            <div class="card", id="music2">
                                 <img src="..." class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Special title treatment</h5>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <h5 class="card-title">Card 6</h5>
+                                    <p class="card-text">music</p>
                                     <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
