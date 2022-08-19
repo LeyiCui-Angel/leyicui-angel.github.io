@@ -48,11 +48,11 @@
                         New York · Barnard College, Columbia University · (332) 323-4897 ·
                         <a href="mailto:lc3542@barnard.edu">lc3542@barnard.edu</a>
                     </div>
-                    <p class="lead mb-5">Hi! I'm a <span class = "text-primary">rising junior</span> studying <span class = "text-primary">Computer Science</span> (major), <span class = "text-primary">Statistics</span> (minor), and <span class = "text-primary">Dance</span> (minor; ballet, modern, Chinese traditional) at <span class = "text-primary">Barnard College of Columbia University</span>.
-                    <span class = "text-primary"><a href="https://github.com/LeyiCui-Angel"><br /><br />Click here to download my resume!</a></span> (Last Updated 07/07/2022)</p>
+                    <p class="lead mb-5">Hi! I'm a <span class = "text-primary">rising junior</span> studying <span class = "text-primary">Computer Science</span> (major), <span class = "text-primary">Statistics</span> (minor), and <span class = "text-primary">Dance</span> (minor; ballet, modern, Chinese traditional) at <span class = "text-primary">Barnard College of Columbia University</span>. <br><br>
+                    <a href="assets/resume0818.pdf" download="Angel(Leyi)_Cui.pdf" class="btn btn-primary">Download my Resume</a> (Last Updated 08/18/2022)</p>
                     <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/angelc-leyi/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/LeyiCui-Angel"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://www.linkedin.com/in/angelc-leyi/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/LeyiCui-Angel" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
             </section>
@@ -75,13 +75,19 @@
                             <a class="nav-link active" href="#projects">All</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projectsCS" onclick="display('projectsCS'); hide('projects'); hide('projectsD'); hide('projectsM');">Computer Science</a>
+                            <a class="nav-link" href="#projectsCS" onclick="display('projectsCS'); hide('projects'); hide('projectsD'); hide('projectsM'); hide('projectsG'); hide('projectsW');">Computer Science</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projectsD" onclick="display('projectsD'); hide('projects'); hide('projectsCS'); hide('projectsM');">Dance</a>
+                            <a class="nav-link" href="#projectsD" onclick="display('projectsD'); hide('projects'); hide('projectsCS'); hide('projectsM'); hide('projectsG'); hide('projectsW');">Dance</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projectsM" onclick="display('projectsM'); hide('projects'); hide('projectsCS'); hide('projectsD');">Music</a>
+                            <a class="nav-link" href="#projectsM" onclick="display('projectsM'); hide('projects'); hide('projectsCS'); hide('projectsD'); hide('projectsG'); hide('projectsW');">Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projectsG" onclick="hide('projectsM'); hide('projects'); hide('projectsCS'); hide('projectsD'); display('projectsG'); hide('projectsW');">Game Design and Development</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projectsW" onclick="hide('projectsM'); hide('projects'); hide('projectsCS'); hide('projectsD'); hide('projectsG'); display('projectsW');">Writing</a>
                         </li>
                         <!--<li class="nav-item">
                             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -91,21 +97,125 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="card">
-                                <img src="..." class="card-img-top" alt="...">
+                                <img src="assets/img/TSL.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h4 class="card-title">Accessability of Temporal Stream Logic (TSL)</h4>
-                                    <p class="card-text">The research is about making TSL, a logic specification language, more accessible by working on writing logic, design user interfaces, and do user studies.</p>
-                                    <a href="#" class="btn btn-primary">Check demo</a>
+                                    <h4 class="card-title">Advancing the Usability of Temporal Stream Logic (TSL)</h4>
+                                    <p class="card-text">The research focused on making TSL, a logic specification language, more usable by working on writing logic, designing user interfaces, doing user studies, and optimizing TSL-generated code.</p>
+                                    <a href="https://barnard-pl-labs.github.io/dynamicGrammars/frontEnd/dynamicGrammars.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Structured Editor Demo</a> <br><br>
+                                    <a href="http://htmlpreview.github.io/?https://github.com/Barnard-PL-Labs/blog/blob/gh-pages/SRI22Smith/SRI%202022%20Research%20Documentation%20and%20Progress.html" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Research Blogpost</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="card">
+                                <img src="assets/img/huisu.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Hui Su Sha Tang 洄溯沙棠</h4>
+                                    <p class="card-text">A Chinese-themed music game about choices of life, and the law of the jungle. Until now, it has 545k views, 41k downloads, and rating of 8.1/10.0</p>
+                                    <a href="https://www.taptap.com/app/202720" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Try it out</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="card">
-                                <img src="..." class="card-img-top" alt="...">
+                                <img src="assets/img/music.webp" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h4 class="card-title">Card 2</h4>
-                                    <p class="card-text">dance</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <h4 class="card-title">Life Upon the Sun 云端岁月</h4>
+                                    <p class="card-text">Composed by me, KaEkihan; Performed by Tianyi Luo. The music is about missing the life when we were still kids.</p>
+                                    <object height="50%" width="100%" data="assets/music/sun.mp3" onload="this.contentDocument.querySelector('video').pause()"></object>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="card">
+                                <img src="assets/img/EverydayL.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Everyday Life</h4>
+                                    <p class="card-text">This modern dance piece was choreographed to express how people are trapped in their day-to-day life. Even if people want to escape, they are still living in this "Everyday Life."</p>
+                                    <a href="https://youtu.be/XrJuj0ZUjpc" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Play recording</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="assets/img/paper.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">On the Two-dimensional Resilient Consensus</h4>
+                                    <p class="card-text">Proposed two-dimension MSR algorithm, one possible approach to tackle the two-dimensional resilient consensus problem. The paper was published at ICCSNT2019.</p>
+                                    <a href="https://ieeexplore.ieee.org/document/8962480" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="assets/img/Misty.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Misty Rain in the Small Town 小城烟雨</h4>
+                                    <p class="card-text">This Chinese-themed dance piece depicts a young girl living in Jiangnan on a misty rainy day.</p>
+                                    <a href="https://youtu.be/3cwlhfYsK-c" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Play recording</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="assets/img/FreeG.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Healthy FreeG</h4>
+                                    <p class="card-text">To automatically get notified about the expiration date of groceries after shopping and keep track of your calorie insumption with only taking a photo. Healthy FreeG, your carefree healthy fridge.</p>
+                                    <a href="https://tianqizhao.notion.site/Healthy-FreeG-c616c3bd3b1c471393a1d748ffacd0bf" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Learn more about it</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="assets/img/comic.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">The Female Prince Consort 女驸马</h4>
+                                    <p class="card-text">Screenwriter of the ancient Chinese-themed comic “The Female Prince Consort” adapted from its Huangmei Opera version. The comic has over 34 million views and 43k likes.</p>
+                                    <a href="https://www.kuaikanmanhua.com/web/topic/7205/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Read it online</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="assets/img/MIT.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Smart Energy Conservation System</h4>
+                                    <p class="card-text">We built a smart BMS to reduce emissions in MIT buildings. The project was awarded MIT Energy Hackathon third place. I later designed a smart energy conservation system for high-school by adapting it into the feedback control system.</p>
+                                    <a href="https://docs.google.com/presentation/d/1-CwzfMwePPcjbNd7j8eVpAUDhp-O88N15fk_CM7geeM/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary">MIT Campus Version</a> <br><br>
+                                    <a href="https://docs.google.com/presentation/d/1_larSvIzqRmIhvcS4dJnwfmeXNq2DrJthpEea0sCEGw/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary">High-school Version</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="assets/img/CUBE.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">CU Ballet Ensemble: The Nutcracker</h4>
+                                    <p class="card-text">Flower, Polchinelle, and party guest in the Columbia University Ballet Ensemble's Fall 2021 production of The Nutcracker</p>
+                                    <a href="https://www.youtube.com/watch?v=E7ui-OwVXy0" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Performance Recording</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="assets/img/music.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Which Day 哪一天</h4>
+                                    <p class="card-text">Composed by me, 6&9. It is a Chinese-themed light music about love. The second audio is the piano demo.</p>
+                                    <object height="30%" width="100%" data="assets/music/day1.mp3" onload="this.contentDocument.querySelector('video').pause()"></object>
+                                    <object height="30%" width="100%" data="assets/music/dayDemo.mp3" onload="this.contentDocument.querySelector('video').pause()"></object>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="assets/img/dance.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Selected Dance Showcases @ Guangzhou Arts School</h4>
+                                    <p class="card-text">These were recorded from 2014 to 2017 in Guangzhou Arts school. These pieces are all course works that I had finished in Guangzhou Arts School's curriculum. </p>
+                                    <a href="https://youtu.be/wYltoQPXeVg" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Chinese Folk Dance & Character Dance</a> <br><br>
+                                    <a href="https://youtu.be/obC9WdLqtFg" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Ballet & Modern Dance</a>
                                 </div>
                             </div>
                         </div>
@@ -121,16 +231,22 @@
                     <h2 class="mb-5">Projects</h2>
                     <ul class="nav nav-pills">
                         <li class="nav-item">
-                            <a class="nav-link" href="#projects" onclick="display('projects'); hide('projectsCS'); hide('projectsD'); hide('projectsM');">All</a>
+                            <a class="nav-link" href="#projects" onclick="display('projects'); hide('projectsCS'); hide('projectsD'); hide('projectsM'); hide('projectsG'); hide('projectsW');">All</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#projectsCS">Computer Science</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projectsD" onclick="display('projectsD'); hide('projects'); hide('projectsCS'); hide('projectsM');">Dance</a>
+                            <a class="nav-link" href="#projectsD" onclick="display('projectsD'); hide('projects'); hide('projectsCS'); hide('projectsM'); hide('projectsG'); hide('projectsW');">Dance</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projectsM" onclick="display('projectsM'); hide('projects'); hide('projectsCS'); hide('projectsD');">Music</a>
+                            <a class="nav-link" href="#projectsM" onclick="display('projectsM'); hide('projects'); hide('projectsCS'); hide('projectsD'); hide('projectsG'); hide('projectsW');">Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projectsG" onclick="hide('projectsM'); hide('projects'); hide('projectsCS'); hide('projectsD'); display('projectsG'); hide('projectsW');">Game Design and Development</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projectsW" onclick="hide('projectsM'); hide('projects'); hide('projectsCS'); hide('projectsD'); hide('projectsG'); display('projectsW');">Writing</a>
                         </li>
                         <!--<li class="nav-item">
                             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -140,14 +256,47 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="card">
-                                <img src="..." class="card-img-top" alt="...">
+                                <img src="assets/img/TSL.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h4 class="card-title">Accessability of Temporal Stream Logic (TSL)</h4>
-                                    <p class="card-text">The research is about making TSL, a logic specification language, more accessible by working on writing logic, design user interfaces, and do user studies.</p>
-                                    <a href="#" class="btn btn-primary">Check demo</a>
+                                    <h4 class="card-title">Advancing the Usability of Temporal Stream Logic (TSL)</h4>
+                                    <p class="card-text">The research focused on making TSL, a logic specification language, more usable by working on writing logic, designing user interfaces, doing user studies, and optimizing TSL-generated code.</p>
+                                    <a href="https://barnard-pl-labs.github.io/dynamicGrammars/frontEnd/dynamicGrammars.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Structured Editor Demo</a> <br><br>
+                                    <a href="http://htmlpreview.github.io/?https://github.com/Barnard-PL-Labs/blog/blob/gh-pages/SRI22Smith/SRI%202022%20Research%20Documentation%20and%20Progress.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Research Blogpost</a>
                                 </div>
                             </div>
                         </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="assets/img/paper.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">On the Two-dimensional Resilient Consensus</h4>
+                                    <p class="card-text">Proposed two-dimension MSR algorithm, one possible approach to tackle the two-dimensional resilient consensus problem. The paper was published at ICCSNT2019.</p>
+                                    <a href="https://ieeexplore.ieee.org/document/8962480" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="assets/img/FreeG.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Healthy FreeG</h4>
+                                    <p class="card-text">To automatically get notified about the expiration date of groceries after shopping and keep track of your calorie insumption with only taking a photo. Healthy FreeG, your carefree healthy fridge.</p>
+                                    <a href="https://tianqizhao.notion.site/Healthy-FreeG-c616c3bd3b1c471393a1d748ffacd0bf" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Learn more about it</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="assets/img/MIT.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Smart Energy Conservation System</h4>
+                                    <p class="card-text">We built a smart BMS to reduce emissions in MIT buildings. The project was awarded MIT Energy Hackathon third place. I later designed a smart energy conservation system for high-school by adapting it into the feedback control system.</p>
+                                    <a href="https://docs.google.com/presentation/d/1-CwzfMwePPcjbNd7j8eVpAUDhp-O88N15fk_CM7geeM/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary">MIT Campus Version</a> <br><br>
+                                    <a href="https://docs.google.com/presentation/d/1_larSvIzqRmIhvcS4dJnwfmeXNq2DrJthpEea0sCEGw/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary">High-school Version</a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </section>
@@ -167,16 +316,22 @@
                     </script>
                     <ul class="nav nav-pills">
                         <li class="nav-item">
-                            <a class="nav-link" href="#projects" onclick="display('projects'); hide('projectsD'); hide('projectsCS'); hide('projectsM');">All</a>
+                            <a class="nav-link" href="#projects" onclick="display('projects'); hide('projectsD'); hide('projectsCS'); hide('projectsM'); hide('projectsG'); hide('projectsW');">All</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projectsCS" onclick="display('projectsCS'); hide('projects'); hide('projectsD'); hide('projectsM');">Computer Science</a>
+                            <a class="nav-link" href="#projectsCS" onclick="display('projectsCS'); hide('projects'); hide('projectsD'); hide('projectsM'); hide('projectsG'); hide('projectsW');">Computer Science</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#projectsD">Dance</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#projectsM" onclick="display('projectsM'); hide('projects'); hide('projectsCS'); hide('projectsD');">Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projectsG" onclick="hide('projectsM'); hide('projects'); hide('projectsCS'); hide('projectsD'); display('projectsG'); hide('projectsW');">Game Design and Development</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projectsW" onclick="hide('projectsM'); hide('projects'); hide('projectsCS'); hide('projectsD'); hide('projectsG'); display('projectsW');">Writing</a>
                         </li>
                         <!--<li class="nav-item">
                             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -186,14 +341,46 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="card">
-                                <img src="..." class="card-img-top" alt="...">
+                                <img src="assets/img/EverydayL.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h4 class="card-title">Card 2</h4>
-                                    <p class="card-text">dance</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <h4 class="card-title">Everyday Life</h4>
+                                    <p class="card-text">This modern dance piece was choreographed to express how people are trapped in their day-to-day life. Even if people want to escape, they are still living in this "Everyday Life."</p>
+                                    <a href="https://youtu.be/XrJuj0ZUjpc" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Play recording</a>
                                 </div>
                             </div>
                         </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="assets/img/Misty.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Misty Rain in the Small Town 小城烟雨</h4>
+                                    <p class="card-text">This Chinese-themed dance piece depicts a young girl living in Jiangnan on a misty rainy day.</p>
+                                    <a href="https://youtu.be/3cwlhfYsK-c" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Play recording</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="assets/img/CUBE.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">CU Ballet Ensemble: The Nutcracker</h4>
+                                    <p class="card-text">Flower, Polchinelle, and party guest in the Columbia University Ballet Ensemble's Fall 2021 production of The Nutcracker</p>
+                                    <a href="https://www.youtube.com/watch?v=E7ui-OwVXy0" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Performance Recording</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="assets/img/dance.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Selected Dance Showcases @ Guangzhou Arts School</h4>
+                                    <p class="card-text">These were recorded from 2014 to 2017 in Guangzhou Arts school. These pieces are all course works that I had finished in Guangzhou Arts School's curriculum. </p>
+                                    <a href="https://youtu.be/wYltoQPXeVg" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Chinese Folk Dance & Character Dance</a> <br><br>
+                                    <a href="https://youtu.be/obC9WdLqtFg" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Ballet & Modern Dance</a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </section>
@@ -213,16 +400,22 @@
                     </script>
                     <ul class="nav nav-pills">
                         <li class="nav-item">
-                            <a class="nav-link" href="#projects" onclick="display('projects'); hide('projectsM'); hide('projectsCS'); hide('projectsD');">All</a>
+                            <a class="nav-link" href="#projects" onclick="display('projects'); hide('projectsM'); hide('projectsCS'); hide('projectsD'); hide('projectsG'); hide('projectsW');">All</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projectsCS" onclick="display('projectsCS'); hide('projects'); hide('projectsD'); hide('projectsM');">Computer Science</a>
+                            <a class="nav-link" href="#projectsCS" onclick="display('projectsCS'); hide('projects'); hide('projectsD'); hide('projectsM'); hide('projectsG'); hide('projectsW');">Computer Science</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projectsD" onclick="display('projectsD'); hide('projects'); hide('projectsCS'); hide('projectsM');">Dance</a>
+                            <a class="nav-link" href="#projectsD" onclick="display('projectsD'); hide('projects'); hide('projectsCS'); hide('projectsM'); hide('projectsG'); hide('projectsW');">Dance</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#projectsM">Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projectsG" onclick="hide('projectsM'); hide('projects'); hide('projectsCS'); hide('projectsD'); display('projectsG'); hide('projectsW');">Game Design and Development</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projectsW" onclick="hide('projectsM'); hide('projects'); hide('projectsCS'); hide('projectsD'); hide('projectsG'); display('projectsW');">Writing</a>
                         </li>
                         <!--<li class="nav-item">
                             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -230,7 +423,131 @@
                     </ul>
 
                     <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="assets/img/music.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Life Upon the Sun 云端岁月</h4>
+                                    <p class="card-text">Composed by me, KaEkihan; Performed by Tianyi Luo. The music is about missing the life when we were still kids.</p>
+                                    <object height="50%" width="100%" data="assets/music/sun.mp3" onload="this.contentDocument.querySelector('video').pause()"></object>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="assets/img/music.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Which Day 哪一天</h4>
+                                    <p class="card-text">Composed by me, 6&9. It is a Chinese-themed light music about love. The second audio is the piano demo.</p>
+                                    <object height="30%" width="100%" data="assets/music/day1.mp3" onload="this.contentDocument.querySelector('video').pause()"></object>
+                                    <object height="30%" width="100%" data="assets/music/dayDemo.mp3" onload="this.contentDocument.querySelector('video').pause()"></object>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
 
+            <!-- ProjectsG-->
+            <section class="resume-section" id="projectsG" style="display:none">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <script>
+                        function display('id'){
+                            document.getElementById(id).style="display:flex";
+                        }
+                        function hide('id'){
+                            document.getElementById(id).style="display:none";
+                        }
+                    </script>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects" onclick="display('projects'); hide('projectsM'); hide('projectsCS'); hide('projectsD'); hide('projectsG'); hide('projectsW');">All</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projectsCS" onclick="display('projectsCS'); hide('projects'); hide('projectsD'); hide('projectsM'); hide('projectsG'); hide('projectsW');">Computer Science</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projectsD" onclick="display('projectsD'); hide('projects'); hide('projectsCS'); hide('projectsM'); hide('projectsG'); hide('projectsW');">Dance</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projectsM" onclick="display('projectsM'); hide('projects'); hide('projectsCS'); hide('projectsD'); hide('projectsG'); hide('projectsW');">Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#projectsG">Game Design and Development</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projectsW" onclick="hide('projectsM'); hide('projects'); hide('projectsCS'); hide('projectsD'); hide('projectsG'); display('projectsW');">Writing</a>
+                        </li>
+                        <!--<li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>-->
+                    </ul>
+
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="card">
+                                <img src="assets/img/huisu.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Hui Su Sha Tang 洄溯沙棠</h4>
+                                    <p class="card-text">A Chinese-themed music game about choices of life, and the law of the jungle. Until now, it has 545k views, 41k downloads, and rating of 8.1/10.0</p>
+                                    <a href="https://www.taptap.com/app/202720" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Try it out</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- ProjectsW-->
+            <section class="resume-section" id="projectsW" style="display:none">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <script>
+                        function display('id'){
+                            document.getElementById(id).style="display:flex";
+                        }
+                        function hide('id'){
+                            document.getElementById(id).style="display:none";
+                        }
+                    </script>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects" onclick="display('projects'); hide('projectsM'); hide('projectsCS'); hide('projectsD'); hide('projectsG'); hide('projectsW');">All</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projectsCS" onclick="display('projectsCS'); hide('projects'); hide('projectsD'); hide('projectsM'); hide('projectsG'); hide('projectsW');">Computer Science</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projectsD" onclick="display('projectsD'); hide('projects'); hide('projectsCS'); hide('projectsM'); hide('projectsG'); hide('projectsW');">Dance</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projectsM" onclick="display('projectsM'); hide('projects'); hide('projectsCS'); hide('projectsD'); hide('projectsG'); hide('projectsW');">Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projectsG" onclick="hide('projectsM'); hide('projects'); hide('projectsCS'); hide('projectsD'); display('projectsG'); hide('projectsW');">Game Design and Development</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#projectsW">Writing</a>
+                        </li>
+                        <!--<li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>-->
+                    </ul>
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <img src="assets/img/comic.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">The Female Prince Consort 女驸马</h4>
+                                    <p class="card-text">Screenwriter of the ancient Chinese-themed comic “The Female Prince Consort” adapted from its Huangmei Opera version. The comic has over 34 million views and 43,000+ likes.</p>
+                                    <a href="https://www.kuaikanmanhua.com/web/topic/7205/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Read it online</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -306,8 +623,8 @@
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
-                    <p>This is something.</p>
-                    <p class="mb-0">I'm still working on this.</p>
+                    <p>I enjoy trying new restaurants, going to jazz bars, and watching Broadway shows in New York. I'm mostly around the upper west side (Columbia University). Feel free to contact me if you are around New York!</p>
+                    <p class="mb-0">I'm looking forward to help with CV, HCI, NLP related research. I'm also searching for a SWE job.</p>
                 </div>
             </section>
             <hr class="m-0" />
@@ -330,7 +647,7 @@
                         <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
                         <li class="list-inline-item"><i class="fab fa-npm"></i></li>
                     </ul> -->
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <div class="subheading mb-3">Programming Languages & Tools </div>
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -338,18 +655,18 @@
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Frameworks/Libraries: Flask, Django, PostgreSQL, MySQL, SQLite, React.js, Pandas, NumPy, OpenCV, Tkinter (GUI)
+                            Frameworks/Libraries: Flask, Django, React.js, PostgreSQL, MySQL, SQLite, TensorFlow, Pandas, NumPy, OpenCV, Tkinter (GUI)
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Tools: Linux, Git, Unity, Figma, Adobe Premier, GarageBand
+                            Tools: Linux, Git, Unity, Figma, Adobe Premier, GarageBand <br><br>
                         </li>
                     </ul>
                     <div class="subheading mb-3">Clubs</div>
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Columbia ADI
+                            Columbia Application Development Initiative
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -361,7 +678,7 @@
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Barnard & Columbia Chorus
+                            Barnard & Columbia Chorus <br><br>
                         </li>
                     </ul>
                     <div class="subheading mb-3">Achievements</div>
@@ -381,6 +698,10 @@
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
                             2020 Byte Camp game design track winner
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Screenwriter of a Chinese-themed comic "the Female Prince Consort" adapted from Huangmei Opera
                         </li>
                     </ul>
                 </div>
