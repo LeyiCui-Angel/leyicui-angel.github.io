@@ -12,7 +12,6 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords:   # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -223,7 +222,6 @@ plugins:
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
-  - jekyll/scholar
   - jekyll-sitemap
   - jekyll-toc
   - jekyll-twitter-plugin
@@ -270,32 +268,32 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
-scholar:
+#scholar:
 
-  last_name: [Cui, Cui*]
-  first_name: [Angel, Leyi, Angel (Leyi), Leyi (Angel), Angel "Leyi", Leyi "Angel", Angel Leyi, Leyi Angel]
+  #last_name: [Cui, Cui*]
+  #first_name: [Angel, Leyi, Angel (Leyi), Leyi (Angel), Angel "Leyi", Leyi "Angel", Angel Leyi, Leyi Angel]
 
-  style: apa
-  locale: en
+  #style: apa
+  #locale: en
 
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
+  #source: /_bibliography/
+  #bibliography: papers.bib
+  #bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
+  #bibtex_filters: [latex, smallcaps, superscript]
 
-  replace_strings: true
-  join_strings: true
+  #replace_strings: true
+  #join_strings: true
 
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
+  #details_dir: bibliography
+  #details_layout: bibtex.html
+  #details_link: Details
 
-  query: "@*"
-  group_by: year
-  group_order: descending
+  #query: "@*"
+  #group_by: year
+  #group_order: descending
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
