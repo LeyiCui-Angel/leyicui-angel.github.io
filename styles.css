@@ -1,0 +1,128 @@
+/* Reset styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    width: 60%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: lightskyblue;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #bbb 1px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: hotpink;
+    font-weight: bold;
+}
+
+.link {
+    color: hotpink;
+}
+
+header a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    max-width: 300px;
+    height: auto;
+}
+
+.profile-text {
+    flex-grow: 1;
+    text-align: left;
+}
+
+/* News Section */
+section#news {
+    margin-top: 20px;
+}
+
+section#news h2 {
+    color: hotpink;
+}
+
+section#news ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+section#news li {
+    margin-bottom: 10px;
+}
+
+.pink-italics-text {
+    color: hotpink;
+    font-style: italic;
+}
+
+.pink-text {
+    color: hotpink;
+}
+
+/* Add these CSS rules to make the "Copy Citation" and "Paper Link" text pink */
+.citation-icon,
+.paper-link-icon {
+    color: hotpink;
+    text-decoration: none; /* Remove the underline */
+}
+
+/* Add a different color when hovering over the links */
+.citation-icon:hover,
+.paper-link-icon:hover {
+    color: pink; /* Change to your preferred hover color */
+}

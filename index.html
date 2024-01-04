@@ -4,80 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Angel (Leyi) Cui</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    .container {
-      width: 80%;
-      max-width: 1200px; /* Adjust the maximum width as needed */
-      margin: auto
-    }
-    header {
-      background: lightskyblue;
-      color: white;
-      padding-top: 30px;
-      min-height: 70px;
-      border-bottom: #bbb 1px solid;
-    }
-    header a {
-      color: #fff;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-size: 16px;
-    }
-    header ul {
-      padding: 0;
-      list-style: none;
-    }
-    header li {
-      display: inline;
-      margin: 0 20px;
-    }
-    header #branding {
-      float: left;
-    }
-    header #branding h1 {
-      margin: 0;
-    }
-    header nav {
-      float: right;
-      margin-top: 10px;
-    }
-    header .highlight, header .current a {
-      color: hotpink;
-      font-weight: bold;
-    }
-    header a:hover {
-      color: #ffffff;
-      font-weight: bold;
-    }
-    .profile-section {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-      width: 80%;
-      max-width: 1200px; /* Adjust the maximum width as needed */
-      margin: auto;
-      padding: 20px;
-      flex-direction: row; /* Align items side by side */
-    }
-    .profile-pic {
-      max-width: 200px; /* Adjust as needed */
-      height: auto; /* Maintain aspect ratio */
-      order: 2
-    }
-    .profile-text {
-      flex-grow: 1;
-      text-align: left;
-      order: 1
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Link to external CSS file -->
 </head>
 
 <body>
@@ -88,38 +15,65 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#publications">Publications</a></li>
+        <li><a href="index.html"><strong>Home</strong></a></li>
+        <li><a href="publications.html">Publications</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#cv">CV</a></li>
+        <li><a href="Angel_Cui_CV_0104.pdf" target="_blank">CV</a></li>
       </ul>
     </nav>
   </div>
 </header>
 
-<div class="profile-section">
-  <img src="headshot1.jpeg" alt="Headshot" class="profile-pic">
-  <div class="profile-text">
-    <h3>
-      Hi! I’m a student, software engineer, researcher, dancer, musician, and foodie. I’m based in NYC.
-    </h3>
-    <p>
-      My interests lie in the intersection of formal verification, programming languages, human-computer interaction, artificial intelligence, and computing in healthcare.
-    </p>
-    <p>
-      I am currently working on two projects: Augmenting Clinical Decisions via Expert-Informed Transformers and PhysioLabXR Scripting Graphic Programming Interface Design and Code Generation with Prof. Steven Feiner, Prof. Kaveri Thakoor, and Prof. Paul Sajda.
-    </p>
-    <p>
-      Most of my previous work was done as a research assistant with Prof. Mark Santolucito in Barnard Programming Languages Lab. Learn more in my <a href="#publications">publications page</a> and <a href="#projects">projects page</a>!
-    </p>
-    <p>
-      This summer through the CMU’s REUSE 2023 program, I had the incredible opportunity to work with Prof. Eunsuk Kang on the robustness of Electronic Health Records, doing research at the intersection of software engineer and human-computer interaction.
-    </p>
-    <p id="contact">
-      Please feel free to reach out to me at <a href="mailto:lc3542@columbia.edu">lc3542@columbia.edu</a> ☀️
-    </p><br>
-    <p>
-      <strong>Education:</strong> Barnard College of Columbia University; BA, Computer Science, Dance (Minor) 2023.5
-    </p>
+<div class="container">
+  <div class="profile-section">
+    <div class="profile-text">
+      <h3>
+        Hi! I’m a student, researcher, software engineer, dancer, and foodie. I’m based in NYC.
+      </h3>
+      <p>
+        My interests lie in the intersection of formal verification, programming languages, human-computer interaction, artificial intelligence, and computing in healthcare.
+      </p>
+      <p>
+        I am currently working on two projects: Augmenting Clinical Decisions via Expert-Informed Transformers and PhysioLabXR Scripting Graphic Programming Interface Design and Code Generation with Prof. Steven Feiner, Prof. Kaveri Thakoor, and Prof. Paul Sajda at Columbia University.
+      </p>
+      <p>
+        Most of my previous work was done as a research assistant with Prof. Mark Santolucito in Barnard Programming Languages Lab. Learn more in my <a class="link" href="#publications">publications page</a> and <a class="link" href="#projects">projects page</a>!
+      </p>
+      <p>
+        Last summer through the CMU’s REUSE 2023 program, I had the incredible opportunity to work with Prof. Eunsuk Kang on the robustness of Electronic Health Records, doing research at the intersection of formal methods and human-computer interaction.
+      </p>
+      <p id="contact">
+        Please feel free to reach out to me at <a class="link" href="mailto:lc3542@columbia.edu">lc3542@columbia.edu</a> ☀️
+      </p><br>
+      <p>
+        <strong>Education:</strong> Barnard College of Columbia University; BA, Computer Science, Dance (Minor) 2023.5
+      </p>
+    </div>
+    <img src="headshot1.jpeg" alt="Headshot" class="profile-pic">
+  </div>
+
+  <section id="news">
+    <h2>News</h2>
+    <ul>
+      <li>
+        <strong>Happy New Year! 🎉</strong>
+      </li><br>
+      <li>
+        <strong>🎉 December 2023:</strong> Our paper <span class="pink-italics-text">Towards the Usability of Reactive Synthesis: Mapping TSL Misconceptions to Mitigations</span> got accepted to Plateau 2024. I will be presenting the paper at the conference in February 2024!
+      </li>
+      <li>
+        <strong>🎉 December 2023:</strong> I graduated from Barnard College of Columbia University with a BA in Computer Science!
+      </li>
+      <li>
+        <strong>🎉 December 2023:</strong> I presented the poster <span class="pink-italics-text">Safe and Reliable Medical Records: Assessing the Robustness of OpenEMR</span> at the 2023 Columbia University Undergraduate Computer and Data Science Research Fair and received the <strong>Best Overall Prize</strong>!
+      </li>
+      <li>
+        <strong>October 2023:</strong> I received the Beyond Barnard Internship Program grant.
+      </li>
+    </ul>
+  </section>
 </div>
+
 </body>
 </html>
+
