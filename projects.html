@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects - Angel (Leyi) Cui</title>
-    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Link to your external CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css"> <!-- Link to your external CSS file -->
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YN712S0YJF"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-YN712S0YJF');
+</script>
 <body>
 <header>
     <div class="container">
@@ -17,7 +26,7 @@
                 <li><a href="index.html">Home</a></li> <!-- Link back to the home page (index.html) -->
                 <li><a href="publications.html">Publications</a></li>
                 <li><a href="projects.html"><strong>Projects</strong></a></li>
-                <li><a href="Angel_Cui_CV_0104.pdf" target="_blank">CV</a></li>
+                <li><a href="assets/cv/Angel_Cui_CV_0104.pdf" target="_blank">CV</a></li>
             </ul>
         </nav>
     </div>
@@ -27,13 +36,13 @@
     <section id="selected-projects">
         <h2>Selected Projects</h2>
         <div class="project-card">
-            <img src="TSL-2.jpeg" alt="Project 1" class="project-image">
+            <img src="assets/img/TSL-2.jpeg" alt="Project 1" class="project-image">
             <div class="project-info">
                 <h3>Advancing the Usability of Temporal Stream Logic (TSL)</h3>
                 <p>Temporal Stream Logic (TSL) is a high-level logical specification language that describes the behavior of a reactive system over time. TSL can be synthesized into high-level code such as JavaScript and Python. TSL is very powerful in specifying complex programs but writing TSL
                     is hard.</p>
 
-                <p>To advance the usability of TSL, we developed interface designs including <a class="link" target="_blank" href="https://barnard-pl-labs.github.io/dynamicGrammars/">a structured editor with drop-down menus</a>, a VSCode extension, and <a class="link" target="_blank" href="https://kilthub.cmu.edu/articles/conference_contribution/Towards_the_Usability_of_Reactive_Synthesis_Building_Blocks_of_Temporal_Logic/22277356?backTo=/collections/PLATEAU_2023/6454855">a Blockly editor</a>. We piloted user studies and <a class="link" target="_blank" href="PLATEAU_2024_paper_15.pdf">documented common misunderstandings in writing TSL and proposed mitigation strategies</a>. </p>
+                <p>To advance the usability of TSL, we developed interface designs including <a class="link" target="_blank" href="https://barnard-pl-labs.github.io/dynamicGrammars/">a structured editor with drop-down menus</a>, a VSCode extension, and <a class="link" target="_blank" href="https://kilthub.cmu.edu/articles/conference_contribution/Towards_the_Usability_of_Reactive_Synthesis_Building_Blocks_of_Temporal_Logic/22277356?backTo=/collections/PLATEAU_2023/6454855">a Blockly editor</a>. We piloted user studies and <a class="link" target="_blank" href="assets/paper/PLATEAU_2024_paper_15.pdf">documented common misunderstandings in writing TSL and proposed mitigation strategies</a>. </p>
                 <ul class="project-links">
                     <li><a href="https://barnard-pl-labs.github.io/dynamicGrammars/" target="_blank">Structured Editor for TSL</a></li>
                     <li><a href="https://barnard-pl-labs.github.io/tsl-api/" target="_blank">TSL API</a></li>
@@ -44,7 +53,7 @@
             </div>
         </div>
         <div class="project-card">
-            <img src="deviatedGen.jpeg" alt="Project 2" class="project-image">
+            <img src="assets/img/deviatedGen.jpeg" alt="Project 2" class="project-image">
             <div class="project-info">
                 <h3>Assessing the Robustness of Electronic Health Records (EHRs)</h3>
                 <p>Systems are built under the environment assumption that users will interact with the system by following expected workflow steps. However, the actual environment may deviate. Users may make mistakes, which can lead to unexpected dangerous system behaviors.</p>
@@ -58,7 +67,7 @@
 
         </div>
         <div class="project-card">
-            <img src="physiolabxr.jpeg" alt="Project 3" class="project-image">
+            <img src="assets/img/physiolabxr.jpeg" alt="Project 3" class="project-image">
             <div class="project-info">
                 <h3>PhysioLabXR Scripting Graphic Programming Interface and Code Generation</h3>
                 <p><a class="link" href="http://physiolabxr.org/" target="_blank">PhysioLabXR</a> is a Python-based open-source platform for real-time, multi-modal physiological data processing in neuroscience and human–computer interaction experiments. It is designed to be used by researchers who are not limited to programmers. The current PhysioLabXR scripting interface is not intuitive and requires users to have programming knowledge. </p>
@@ -70,7 +79,7 @@
             </div>
         </div>
         <div class="project-card">
-            <img src="augmenting.png" alt="Project 4" class="project-image">
+            <img src="assets/img/augmenting.png" alt="Project 4" class="project-image">
             <div class="project-info">
                 <h3>Virtual Vitality: Augmenting Clinical Decisions via Expert-Informed Transformers</h3>
                 <p>I designed an interactive interface to facilitate clinical residents in diagnosing glaucoma using optical coherence tomography (OCT) reports. The system is driven by eye-tracking and a novel vision transformer (ViT) augmented by gaze behaviors from expert ophthalmologists.</p>
@@ -82,7 +91,7 @@
     <section id="other-projects">
         <h2>Other Projects</h2>
         <div class="project-card">
-            <img src="FreeG.jpeg" alt="Project 1" class="project-image-smaller">
+            <img src="assets/img/FreeG.jpeg" alt="Project 1" class="project-image-smaller">
             <div class="project-info">
                 <h3>Healthy FreeG</h3>
                 <p>Automatically receive alerts about the expiration dates of your groceries post-shopping and effortlessly monitor your calorie intake by simply snapping a photo. Healthy FreeG, your carefree healthy fridge.</p>
@@ -92,7 +101,7 @@
             </div>
         </div>
         <div class="project-card">
-            <img src="huisu.jpeg" alt="Project 2" class="project-image-smaller">
+            <img src="assets/img/huisu.jpeg" alt="Project 2" class="project-image-smaller">
             <div class="project-info">
                 <h3>Hui Su Sha Tang 洄溯沙棠</h3>
                 <p>A Chinese-themed music game about choices of life, and the law of the jungle. It has 545k views, 41k downloads, and a rating of 8.1/10.0 so far.</p>
