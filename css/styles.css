@@ -9,7 +9,7 @@ body {
 
 /* Container styles */
 .container {
-    width: 60%;
+    width: 70%;
     max-width: 1200px;
     margin: auto;
     padding: 20px;
@@ -77,8 +77,12 @@ header a:hover {
 }
 
 .profile-pic {
-    max-width: 300px;
-    height: auto;
+    width: 300px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: makes the photo circular */
+    #display: block;
+    margin: 20px auto; /* Centers the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for a polished look */
 }
 
 .profile-text {
